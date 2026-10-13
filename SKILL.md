@@ -109,8 +109,9 @@ $$Q_{\text{actual}}(t) = \min\Big(Q_{\text{supply}}(t),\; Q_{\text{demand}}(t)\B
 - “生成关于 `[Company X / Ticker]` 的 Quantitative Mosaic Skill”
 - “用 `quantitative-mosaic-generator` 为 `[Company X]` 建模”
 - “生成 `[Company X]` 的数学量化马赛克投研框架”
+- `"Generate the Quantitative Mosaic Skill for [Company X]"`
 
 你必须：
 1. 严格遵循上述 **Step 1 至 Step 5** 的逻辑架构。
-2. 参考 `./templates/target-company-mosaic-skill.md` 的标准结构。
+2. 默认使用中文输出并参考 `./templates/target-company-mosaic-skill.md` 的标准结构；**若用户使用英文提问或明确要求英文版输出**，请按需读取同目录下的 [`./SKILL_EN.md`](./SKILL_EN.md) 与 [`./templates/target-company-mosaic-skill-en.md`](./templates/target-company-mosaic-skill-en.md) 进行生成。
 3. 输出一份完整的、包含标准 YAML Frontmatter、严谨 LaTeX 数学公式和精确逆向数据节点的 Markdown 文档（可直接保存为对应公司的 `SKILL.md`）。

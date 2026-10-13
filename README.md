@@ -1,5 +1,7 @@
 # Quantitative Mosaic Generator (`system:quantitative-mosaic-generator`)
 
+**简体中文** | [English](./README_EN.md)
+
 > **生成任意指定标的的数学量化马赛克投研框架 (Supply/Demand/Financial Model & Scraping Nodes) 的元技能 (Meta-Skill)**
 
 ## 简介
@@ -19,10 +21,13 @@
 
 ```text
 quantitative-mosaic-generator/
-├── SKILL.md                                    # 核心元技能指令文件
+├── SKILL.md                                    # 核心元技能指令文件（默认中文，零上下文冗余）
+├── SKILL_EN.md                                 # 英文版元技能规范（按需懒加载，平时 0 Token 占用）
 ├── templates/
-│   └── target-company-mosaic-skill.md          # 目标公司专属 Mosaic Skill 标准生成模板
-├── README.md                                   # 仓库说明与使用文档
+│   ├── target-company-mosaic-skill.md          # 目标公司专属 Mosaic Skill 标准中文模板
+│   └── target-company-mosaic-skill-en.md       # 目标公司专属 Mosaic Skill 标准英文模板
+├── README.md                                   # 中文仓库说明文档
+├── README_EN.md                                # 英文仓库说明文档
 └── .gitignore                                  # Git 忽略规则
 ```
 
