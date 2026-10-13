@@ -2,7 +2,7 @@
 
 [简体中文](./README.md) | **English**
 
-> **A Meta-Skill that generates first-principles mathematical Quantitative Mosaic investment research frameworks (Supply/Demand/Financial Model & Reverse-Engineering Scraping Nodes) for any target stock (Ticker).**
+> **A Meta-Skill that generates first-principles mathematical Quantitative Mosaic investment research frameworks (Supply/Demand/Financial Model & Reverse-Engineering Scraping Nodes) to inject professionalism for any target stock (Ticker).**
 
 ## Overview
 

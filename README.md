@@ -6,7 +6,7 @@
 
 ## 简介
 
-`quantitative-mosaic-generator` 是一个专为 AI 投研 Agent（如 Google Antigravity、Claude Code、Codex）设计的 **元技能（Meta-Skill）**。
+`quantitative-mosaic-generator` 是一个专为 AI 投研 Agent（如 Google Antigravity、Claude Code、Codex）设计的 **元技能（Meta-Skill）**，用于向模型注入专业性。
 
 当用户输入任意一家上市公司（Ticker）及其核心业务时，该技能会强制摒弃“市盈率相对估值法”、“行业景气度高”等空洞定性套话，从**第一性原理的物理单位**（瓦特、测试秒数、晶圆片数、机架台数、良率）出发，自动生成一套包含：
 1. **物理与商业属性定义**（基础物理单位与变现锚点）
